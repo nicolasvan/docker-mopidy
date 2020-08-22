@@ -12,6 +12,7 @@ RUN set -ex \
         gstreamer1.0-plugins-bad \
         python3-crypto \
         python3-distutils \
+        python3-dev \
  && curl -L https://bootstrap.pypa.io/get-pip.py | python3 - \
  && pip install pipenv \
     # Clean-up
@@ -24,11 +25,14 @@ RUN set -ex \
  && apt-get update \
  && DEBIAN_FRONTEND=noninteractive apt-get install -y \
         mopidy \
-        mopidy-soundcloud \
-        mopidy-spotify \
+        #mopidy-soundcloud \
+        #mopidy-spotify \
+        libffi-dev \
+        libssl-dev \
+        gcc-arm-linux-gnueabi \
     # Clean-up
  && apt-get purge --auto-remove -y \
-        gcc \
+ #       gcc \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* ~/.cache
 
