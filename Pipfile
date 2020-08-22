@@ -7,10 +7,6 @@ verify_ssl = true
 
 [packages]
 youtube-dl = "*"
-mopidy-iris = "*"
-mopidy-moped = "*"
-mopidy-gmusic = "*"
-mopidy-pandora = "*"
 mopidy-youtube = "*"
 pyopenssl = "*"
 mopidy-jellyfin = "*"
