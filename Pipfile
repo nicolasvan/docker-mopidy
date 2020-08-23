@@ -10,6 +10,7 @@ youtube-dl = "*"
 mopidy-youtube = "*"
 pyopenssl = "*"
 mopidy-jellyfin = "*"
+mopidy-mpd = "*"
 
 [requires]
 python_version = "3.8"

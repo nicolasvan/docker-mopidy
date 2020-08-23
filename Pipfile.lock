@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b33fe6ada7205a82854c2dd7fa5dbe2dbd1718e72e4480ca6573fd49991fc244"
+            "sha256": "a282d59dde3687b6d0a3af05ffafa3e3df32241d5cdcbb46e94021b39e36765e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -126,6 +126,14 @@
             ],
             "index": "pypi",
             "version": "==0.9.2"
+        },
+        "mopidy-mpd": {
+            "hashes": [
+                "sha256:420d60e349d3b4a6e8cbd4574e01ac3ad7864466bd04b7b07b64e224d54b4b92",
+                "sha256:4c452e8ad8fbf13322b510cd48bc5bef5779d2ac8f39cd5e0ca2883248a4325f"
+            ],
+            "index": "pypi",
+            "version": "==3.0.0"
         },
         "mopidy-youtube": {
             "hashes": [
